@@ -1,0 +1,18 @@
+<scene>
+	<group>
+		<scale X="10" Y="10" Z="10"/>
+		<model file='../3dFiles/sphere.3d'/>
+	<group>
+		<scale X="0.3" Y="0.3" Z="0.3"/>
+		<translate time="10"> 
+			<point X="10.0" Y="3.0" Z="0"/>
+			<point X="5.0" Y="5.0" Z="0"/>
+			<point X="0.0" Y="10.0" Z="0"/>
+			<point X="-5.0" Y="4.0" Z="0"/>
+		</translate>
+		<models>
+			<model file='../3dFiles/sphere.3d'/>
+		</models>
+	</group>
+    </group>
+</scene>
